@@ -1,0 +1,37 @@
+/* form input,
+form select,
+form textarea {
+  border-radius: 0.5rem;
+}
+
+form label {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 1rem;
+} */
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card i {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.fleet-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fleet-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.fleet-card img {
+  height: 220px;
+  object-fit: cover;
+}
