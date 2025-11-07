@@ -1,6 +1,6 @@
 import React from "react";
 import luxurySedan from "../assets/images/Luxury-Sedan.jpg"; 
-import suvImg from '../assets/images/executive-suburban-suv.jpg';
+import executiveSUV from "../assets/images/executive-suburban-suv.jpg"; 
 import stretchLimousine from "../assets/images/stretch-limousine.jpg"; 
 import partyBus from "../assets/images/Suburban-SUV2.jpg"; 
 
@@ -26,7 +26,9 @@ const Fleet = () => {
 
         <div className="col-md-3 mb-4">
           <div className="card shadow-sm border-0 fleet-card">
-            <img src={suvImg} alt="Executive Suburban SUV"
+            <img
+              src={executiveSUV}
+              alt="Executive SUV"
               className="img-fluid rounded-top"
             />
             <div className="card-body">
